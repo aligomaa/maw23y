@@ -1,0 +1,576 @@
+.loginbody
+{
+background-image:url("../images/blu.jpg");
+   border: 5px solid white;
+  
+}
+
+.login
+{
+background-color: #0F3255;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 45%;
+    height: 50%;
+    margin-left: 27%;
+   position: absolute;
+    margin-top: 130px;
+    border-radius: 40px;
+        border: 10px solid white;
+    text-shadow: 20px;
+}
+.loginform
+{
+margin-top: 5%;
+}
+
+.loginlogo
+{
+font-size: 30px;
+}
+.username
+{
+width: 70%;
+    height: 15%;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 20;
+    font-family: cursive;
+    margin-top: 20px;
+}
+
+.password
+{
+width: 70%;
+    height: 15%;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 20;
+    font-family: cursive;
+    margin-top: 15px;
+}
+.rememberme
+{
+    margin-top:15px;
+margin-left: 55%;
+}
+.login button
+{
+background-color: #126214;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.login button:hover
+{
+background-color: #fb6e14;
+}
+
+
+
+
+.registerbody
+{
+background-image:url("../images/blu.jpg");
+   border-top: 5px solid white;
+    background-size: cover;
+  
+}
+.register
+{
+background-color: #0F3255;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin-left: 24%;
+   position: absolute;
+   margin-top: 20px;
+    border-radius: 40px;
+        border: 10px solid white;
+    text-shadow: 20px;
+}
+.registerform
+{
+margin-top: 5%;
+}
+
+.registerlogo
+{
+font-size: 30px;
+}
+
+.register button
+{
+background-color: #126214;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+.register button:hover
+{
+background-color: #fb6e14;
+}
+.register input
+{
+    width: 70%;
+    height: 45px;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 20;
+    font-family: cursive;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.topnav {
+    overflow: hidden;
+    margin-top: -15px;
+    width: 100%;
+    border-radius: 15px !important;
+   background-color: #0F3255;
+   text-decoration: none;
+    margin-top: 3px;
+    display: block;
+   font-family: Trajan ;
+    font-size: px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float:right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.topnav p
+{
+    
+color: white;
+font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #fb6e14;
+    color: white;
+    font-size: 18px;
+       text-decoration: none;
+}
+
+
+
+
+
+.network img {
+    width: 100px;
+    height: 150px;
+    float: right;
+    margin-left: 5px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+.network {
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #0F3255;
+    color: white;
+    border-color: yellow;
+    border-radius: 50px;
+    padding: 30px;
+    margin-left: 30px;
+}
+.network p {
+    font-size: 16px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.network_middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.network:hover img , .network:hover p {
+    opacity: 0.1;
+}
+
+.network:hover .network_middle {
+    opacity: 1;
+}
+.network button
+{
+font-size: 16px;
+    font-family:fantasy;
+}
+
+
+
+
+.searchresult img {
+    width: 150px;
+    float: right;
+    margin-left: 5px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.searchresult {
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #0F3255;
+    color: white;
+    border-color: yellow;
+    border-radius: 50px;
+    padding: 30px;
+   border: 1px solid yellow;
+}
+.searchresult p {
+    font-size: 16px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.network_middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+.searchresult:hover #pers-img 
+{
+    opacity: 0;
+}
+.searchresult:hover p {
+    opacity: 0.1;
+}
+
+.searchresult:hover .network_middle {
+    opacity: 1;
+     margin-top: -40px;
+}
+.searchresult:hover{
+    background-color: #012265
+}
+
+
+#showprofile
+{
+width: 90%;
+    height: 50px;
+    font-size: 20px;
+}
+#person-img
+{
+    width: 200px;
+    height: 130px;
+    margin-right: 50px;
+    margin-top: -80px;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+ 
+.sidenav {
+      padding-top: 20px;
+      background-color: #0F3255;
+      height: 500px;
+        margin-top: 45px;
+        border-radius: 20px;
+}
+
+#usersidenav
+{
+   padding-top: 20px;
+      background-color: #0F3255;
+      height: 400px;
+        margin-top: 100px;
+        border-radius: 20px;
+    border: 3px solid white;
+    
+}
+
+.sidelinks
+{
+    width: 100%;
+    height: 50px;
+    background-color: #fb6e14;
+   border-radius: 20px;
+}
+.aside
+{
+    color: white;
+    font-size: 16px; 
+    background-color: gray;
+}
+#s
+{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+.leftsidenav
+{
+      padding-top: 15px;
+      background-color: #0F3255;
+         height: 550;
+        margin-top: 45px;
+       border: 2px solid white;
+        border-radius: 20px;
+}
+
+.suggest
+{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.suggestimg
+{
+    height: 100px;
+    width: 95%;
+     border-radius: 20px;
+    
+}
+.suggest:hover img
+{
+width: 80%;
+            border-radius: 20px;
+}
+
+.box
+{
+
+		width:95%;
+		height: 100%;
+		margin:auto;
+		
+}
+
+
+
+
+.questesion
+{
+overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #0F3255;
+    color: white;
+    border-color: yellow;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 30px;
+   
+}
+
+.questesion p
+{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: right;
+}
+
+.questesion a
+{
+    font-size: 40px;
+    color: #fb6e14;
+    text-decoration: none;
+}
+
+.questesion img {
+    width: 100px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 8px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+.quesbtns
+{
+  margin-top: -50px;
+    margin-left: 20px;
+}
+
+              
+
+
+
+#close
+{
+margin-top: -110px;
+margin-left: 10px;
+    color: black;
+    background-color: white;
+}
+.media-body img
+
+{
+ width:20px;
+    margin-right:820px;
+    margin-top:-120px;
+    position: fixed;
+    
+}
+
+.media-heading 
+{
+    float: right;
+
+}
+
+
+
+
+
+
+#personalsidenav
+{
+      padding-top: 20px;
+      background-color: #0F3255;
+      height: 500px;
+      border-radius: 40px;
+       color: white;
+      margin-left: 140px;
+        margin-top: 20px;
+   
+}
+#personal
+{
+ background-color: #0F3255;
+     border-radius: 40px;
+    color: white;
+    margin-left: 80px;   
+}
+
+#userpersonal
+{
+ background-color: #0F3255;
+     border-radius: 40px;
+    color: white;
+ border: 3px solid white
+   
+}
+.pimg
+{
+    width: 190px;
+    height;100px; 
+    border-radius: 150px;
+    margin-top: 10px;
+}
+
+#editphoto
+{
+margin-top:-100px; 
+    opacity:0;
+}
+
+#editphoto:hover
+{
+opacity: 1;
+}
+
+.editbtn
+{
+    width: 100%;
+    height: 50px;
+    background-color:  #328822;
+        color: white;
+    margin-top: 50px;
+ font-size: 14px;
+}
+
+
+.editbtn:hover
+{
+   
+     background-color:  #fb6e14
+}
+.addcontact
+{
+     width:100%;
+    height: 50px;
+    background-color:   #328822;
+        color: white;
+    margin-top: 30px;
+     font-size: 16px;
+}
+.addcontact:hover
+{
+    background-color:  #fb6e14
+}
+.data
+{ 
+    float: right;
+    font-size: 30px;
+   
+}
+.information
+{
+     font-size: 20px;
+    margin-left: 200px;
+}
+.editinfo
+{
+color: black;
+}
+
+#rows
+{
+background-color: #0F3269 ;
+}
+.submitpersonal
+{
+width: 150px;
+    height: 50px;
+    background-color: #fb6e14;
+    margin-left: -170px;
+    border-radius: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
